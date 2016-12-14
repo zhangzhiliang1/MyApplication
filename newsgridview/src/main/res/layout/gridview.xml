@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zx.newsgridview.view.MyGridView
+            android:id="@+id/gv_G"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:numColumns="4"
+            android:columnWidth="80dp"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp">
+        </com.zx.newsgridview.view.MyGridView>
+
+    </ScrollView>
+</LinearLayout>
